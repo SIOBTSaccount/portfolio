@@ -1,5 +1,8 @@
 # Portfolio E5 – BTS SIO SISR
 
+## Lien de la page
+- https://siobtsaccount.github.io/portfolio/
+
 ## Remplir
 1. Cherche « À compléter » dans chaque fichier : chaque fond jaune est un champ à remplir. Avant de publier, il ne doit plus en rester.
 2. Copie `realisation-1.html` en `realisation-2.html`, etc., puis ajoute-les dans la liste et dans le tableau de `index.html`.
