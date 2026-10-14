@@ -4,15 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Portfolio BTS SIO SISR – Mathéo Garcia</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="home">
+<div id="bar"></div>
 <a class="skip" href="#contenu">Aller au contenu</a>
 <aside>
-  <h1>Mathéo Garcia</h1>
-  <p>BTS SIO option SISR<br>Institut Limayrac, Toulouse<br>Épreuve E5 – Session <span class="todo">20XX</span></p>
+  <a class="brand" href="#accueil">Mathéo Garcia</a>
   <nav aria-label="Sections"><ul>
     <li><a href="#presentation">Présentation</a></li>
     <li><a href="#parcours">Parcours</a></li>
@@ -22,8 +20,18 @@
     <li><a href="#documents">Documents</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul></nav>
+  <button id="theme" type="button" aria-label="Changer de thème">◐</button>
 </aside>
 <main id="contenu">
+
+<section id="accueil" class="hero">
+  <p class="term"><span>matheo@limayrac</span>:<span>~/portfolio</span>$ cat presentation.md</p>
+  <h1>Mathéo Garcia</h1>
+  <p class="lead">Étudiant en BTS SIO, option SISR</p>
+  <p>Portfolio de l'épreuve E5 : support et mise à disposition de services informatiques. Session <span class="todo">20XX</span>.</p>
+  <p><span class="badge">BTS SIO</span><span class="badge">option SISR</span><span class="badge">Institut Limayrac</span><span class="badge">Toulouse</span></p>
+  <p><a class="btn" href="#realisations">Voir mes réalisations</a></p>
+</section>
 
 <section id="presentation">
   <h2>Présentation</h2>
@@ -100,6 +108,7 @@
 </section>
 
 </main>
+<script src="app.js"></script>
 <script>
 (function(){
   var t=document.getElementById("matrice"),h=t.querySelectorAll("thead th"),r=t.querySelectorAll("tbody tr");
