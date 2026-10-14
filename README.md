@@ -1,8 +1,5 @@
 # Portfolio E5 – BTS SIO SISR
 
-## Lien de la page
-- https://siobtsaccount.github.io/portfolio/
-
 ## Remplir
 1. Cherche « À compléter » dans chaque fichier : chaque fond jaune est un champ à remplir. Avant de publier, il ne doit plus en rester.
 2. Copie `realisation-1.html` en `realisation-2.html`, etc., puis ajoute-les dans la liste et dans le tableau de `index.html`.
@@ -19,3 +16,8 @@
 - Teste le lien en navigation privée, et sur téléphone.
 - Garde une copie PDF ou hors ligne du site.
 - Le dépôt est public : aucune donnée confidentielle d'entreprise.
+
+## Présentation orale
+- Flèches gauche et droite du clavier (ou télécommande de présentation) : passer d'une section à l'autre.
+- Le bouton ◐ en haut à droite bascule entre thème sombre et clair.
+- Le site n'utilise plus de police externe : il s'affiche à l'identique sans connexion.
